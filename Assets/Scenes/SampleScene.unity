@@ -3204,6 +3204,7 @@ GameObject:
   - component: {fileID: 1001243656}
   - component: {fileID: 1001243658}
   - component: {fileID: 1001243661}
+  - component: {fileID: 1001243662}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3367,6 +3368,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   armPivot: {fileID: 235729002}
   characterRenderer: {fileID: 1580652629}
+--- !u!114 &1001243662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001243653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13792f0052a62aa46b87a8150cd5957f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 1580652630}
 --- !u!1 &1303505288
 GameObject:
   m_ObjectHideFlags: 0
